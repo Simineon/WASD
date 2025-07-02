@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WASD - Innovative Game Development Studio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon/wasd_logo.png" type="image/x-icon" />
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <img src="icon/wasd_logo.png" alt="WASD Studio Logo" height="60" class="d-inline-block align-top logo-img">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#games">Games</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#jobs">Careers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Rest of your HTML remains the same -->
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Crafting Digital Adventures</h1>
+                <p class="hero-subtitle">Where creativity meets cutting-edge technology</p>
+                <div class="hero-buttons">
+                    <a href="#games" class="btn btn-primary btn-lg me-3">Explore Games</a>
+                    <a href="#jobs" class="btn btn-outline-light btn-lg">Join Our Team</a>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <span class="scroll-text">Scroll Down</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Games Section -->
+    <section id="games" class="games-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Creations</h2>
+                <p class="section-subtitle">Games that captivate and inspire</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="game-card">
+                        <div class="game-thumbnail" style="background-image: url(pizza\ .jpeg);">
+                            <div class="game-badge">Available Now</div>
+                        </div>
+                        <div class="game-info">
+                            <h3 class="game-title">Pizzami</h3>
+                            <p class="game-description">A dynamic adventure game about freeing a pizza restaurant from evil with unusual characters.</p>
+                            <div class="game-platforms">
+                                <span class="badge bg-secondary">PC</span>
+                                <span class="badge bg-secondary">Mac</span>
+                            </div>
+                            <a href="https://gamejolt.com/games/pizzami/996136" class="btn btn-outline-primary">View on GameJolt</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="game-card">
+                        <div class="game-thumbnail" style="background-image: url('https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');">
+                            <div class="game-badge coming-soon">Coming Soon</div>
+                        </div>
+                        <div class="game-info">
+                            <h3 class="game-title">Soon...</h3>
+                            <p class="game-description">Soon, very soon...</p>
+                            <a href="#" class="btn btn-outline-secondary disabled">Coming 2026</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="game-card">
+                        <div class="game-thumbnail" style="background-image: url('https://images.unsplash.com/photo-1589254065878-42c9da997008?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');">
+                            <div class="game-badge coming-soon">In Development</div>
+                        </div>
+                        <div class="game-info">
+                            <h3 class="game-title">Soon...</h3>
+                            <p class="game-description">Soon, very soon...</p>
+                            <a href="#" class="btn btn-outline-secondary disabled">Coming 2027-2028</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Jobs Section -->
+    <section id="jobs" class="jobs-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Join Our Journey</h2>
+                <p class="section-subtitle">Help us create the next generation of gaming experiences</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="job-card">
+                        <div class="job-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="job-title">Game Developer</h3>
+                        <div class="job-meta">
+                            <span class="job-type">Full-time</span>
+                            <span class="job-location">Remote</span>
+                        </div>
+                        <p class="job-description">We're looking for an experienced Unity developer to bring our game concepts to life with clean, efficient code.</p>
+                        <ul class="job-skills">
+                            <li>1+ years Unity experience</li>
+                            <li>C# proficiency</li>
+                            <li>Game physics knowledge</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Apply Now</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="job-card">
+                        <div class="job-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3 class="job-title">Concept Artist</h3>
+                        <div class="job-meta">
+                            <span class="job-type">Contract</span>
+                            <span class="job-location">Remote/Hybrid</span>
+                        </div>
+                        <p class="job-description">Create stunning visuals and bring our game worlds to life with your artistic vision.</p>
+                        <ul class="job-skills">
+                            <li>Digital painting skills</li>
+                            <li>Character design experience</li>
+                            <li>Environment concepting</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Apply Now</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="job-card">
+                        <div class="job-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <h3 class="job-title">Game Designer</h3>
+                        <div class="job-meta">
+                            <span class="job-type">Full-time</span>
+                            <span class="job-location">Remote</span>
+                        </div>
+                        <p class="job-description">Design engaging gameplay mechanics and systems that keep players coming back.</p>
+                        <ul class="job-skills">
+                            <li>Level design experience</li>
+                            <li>Balance understanding</li>
+                            <li>Narrative design</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="contact-info">
+                        <h2 class="section-title">Get In Touch</h2>
+                        <p class="contact-text">Have questions about our games or want to discuss potential collaborations? We'd love to hear from you.</p>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email Us</h4>
+                                <a href="mailto:zverevsaimon@gmail.com">zverevsaimon@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Visit Us</h4>
+                                <p>123 Game Dev Lane, Digital City</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="social-media">
+                        <h3>Connect With Us</h3>
+                        <p>Follow our journey and get the latest updates</p>
+                        <div class="social-links">
+                            <a href="#" class="social-link twitter">
+                                <i class="fab fa-twitter"></i>
+                                <span>Twitter</span>
+                            </a>
+                            <a href="#" class="social-link youtube">
+                                <i class="fab fa-youtube"></i>
+                                <span>YouTube</span>
+                            </a>
+                            <a href="#" class="social-link discord">
+                                <i class="fab fa-discord"></i>
+                                <span>Discord</span>
+                            </a>
+                            <a href="#" class="social-link instagram">
+                                <i class="fab fa-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-brand">
+                        <span class="wasd-logo">WASD</span>
+                        <span class="studio-tag">Studio</span>
+                    </div>
+                    <p class="footer-about">Creating immersive gaming experiences since 2025.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#games">Games</a></li>
+                        <li><a href="#jobs">Careers</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <!--<div class="col-md-4">
+                    <h4 class="footer-heading">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>-->
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 WASD Games Studio and Simineon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
